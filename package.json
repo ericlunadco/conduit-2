@@ -8,7 +8,7 @@
   "scripts": {
     "build": "webpack --mode=development",
     "build:prod": "webpack --mode=production",
-    "start": "npm install -g webpack webpack-cli && npm install --global gulp-cli && cd ./src && npm install && gulp build && cd ../ && webpack serve --mode=development --open"
+    "start": "build && webpack serve --content-base dist --open"
   },
   "devDependencies": {
     "@babel/core": "^7.24.3",
