@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="Description" content="Put your description here.">
+  <base href="/">
+
+  <style>
+    html,
+    body {
+      margin: 100px;
+      padding: 0;
+      font-family: sans-serif;
+      background-color: #ededed;
+    }
+  </style>
+  <title>conduit-components</title>
+</head>
+
+<body>
+  <!-- <conduit-components></conduit-components> -->
+  <!-- <conduit-icon iconName="accessibility_new"></conduit-alert> -->
+    <!-- <conduit-button buttonformat="primary">tep</conduit-button>
+
+    <conduit-alert alertformat="error">
+      <span slot="alert-banner-title">An Alert Title</span>
+      <span slot="alert-banner-description">A description of the banner alert.</span>
+    </conduit-alert>
+    <pie-chart></pie-chart>
+   -->
+  <conduit-banner></conduit-banner>
+  <conduit-alert alertformat="error">
+    <span slot="alert-banner-title">An Alert Title</span>
+    <span slot="alert-banner-description">A description of the bannersss alert.</span>
+  </conduit-alert>
+  <conduit-alert alertformat="error" alertbannertitle="An Alert Title" alertdescription="A description of the bannersss alert.  jkskld l skls sl">
+    <span slot="alert-banner-title">An Alert Title</span>
+    <span slot="alert-banner-description">A description of the bannersss alert.</span>
+  </conduit-alert>
+  
+   <usa-modal></usa-modal>
+   <conduit-table>conduit-table</conduit-table>
+   <conduit-button>teeete</conduit-button>
+
+   <conduit-card
+      heading="Default Card"
+      subheading="A standard USWDS card"
+      bodyContent="Lorem ipsum dolor sit amet."
+    >
+      <div slot="footer">
+        <a class="usa-button" href="#">Learn More</a>
+      </div>
+    </conduit-card>
+
+    <!-- Flag Card -->
+    <conduit-card
+      variant="flag"
+      heading="Flag Card"
+      subheading="Side-by-side layout"
+      imageUrl="https://placehold.co/600x400"
+      altText="Placeholder"
+      bodyContent="This card uses the flag layout with an image on the side."
+    >
+      <div slot="footer">
+        <a class="usa-button" href="#">Learn More</a>
+      </div>
+    </conduit-card>
+
+    <!-- Media Card -->
+    <conduit-card
+      variant="media"
+      heading="Media Card"
+      subheading="Header, then image, then body"
+      imageUrl="https://placehold.co/600x400"
+      altText="Placeholder"
+      bodyContent="In a media card, the image appears between the heading and the body."
+    >
+      <div slot="footer">
+        <a class="usa-button" href="#">Learn More</a>
+      </div>
+    </conduit-card>
+
+    <!-- Accented Card -->
+    <conduit-card
+      variant="accented"
+      heading="Accented Card"
+      bodyContent="Accented cards have a colored border on the left edge."
+      imageUrl="https://placehold.co/600x400"
+
+    ></conduit-card>
+
+    <!-- Border Card -->
+    <conduit-card
+      variant="border"
+      heading="Border Card"
+      bodyContent="Border cards have a full border."
+      imageUrl="https://placehold.co/600x400"
+
+    ></conduit-card>
+  </body>
+
+</html>
